@@ -1,0 +1,45 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  
+}
+
+.footer-brand img {
+  margin-right: 5px;
+}
+
+.navbar-brand span {
+  font-size: 12px;
+}
+
+.footer-dashboard {
+  display: flex;
+  align-items: center;
+}
+
+.footer-dashboard img {
+  filter: invert(100%);
+  margin-right: 5px;
+  align-items: center;
+
+}
+
+.footer-dashboard span {
+  font-size: 12px;
+  align-items: center;
+
+}
+
+.footer-icons i {
+  font-size: 24px; 
+  margin: 16px;
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .bg-body-tertiary {
+    height: 100px; 
+    margin-top: 0px;
+  }
+  }
+

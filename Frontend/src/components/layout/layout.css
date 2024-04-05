@@ -1,0 +1,36 @@
+.body-container {
+    display: flex;
+    
+  }
+
+  
+  .left-bar {
+    flex: 0 0 25%;
+    margin-top: 30px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    display: flex; /* Agregar */
+    flex-direction: column; 
+  }
+
+
+  
+  @media (max-width: 767px) {
+    .body-container {
+      flex-direction: column;
+      margin-top: -70px;
+
+    }
+
+
+  
+    .left-bar {
+      order: -1;
+      margin-bottom: 20px;
+    }
+
+
+  }
+  

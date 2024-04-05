@@ -1,0 +1,14 @@
+
+
+.button-transparent {
+    background-color: transparent !important;
+    border: none !important;
+}
+  
+.button-transparent:hover {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-size: 16px; /* Adjust the font size as needed */
+  }
